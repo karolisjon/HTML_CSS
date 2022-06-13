@@ -1,0 +1,66 @@
+.about {
+    background-color: var(--color-black);
+    /* height: 2000px; */
+    color: var(--color-white);
+}
+
+.about__img {
+    width: 100%;
+}
+
+.about__img__history {
+    width: 400px;
+}
+
+.about__img__team {
+    width: 50%;
+}
+
+.about__team:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 550px) {
+
+    .about__img__history,
+    .about__img__team {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .about__img__history,
+    .about__img__team {
+        display: none;
+    }
+
+    .about__team-teamwork,
+    .about__team-trainings,
+    .about__team-benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .about__img__history,
+    .about__img__team {
+        display: none;
+    }
+
+    .about__team-teamwork,
+    .about__team-trainings,
+    .about__team-benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}

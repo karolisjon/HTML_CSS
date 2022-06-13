@@ -1,0 +1,63 @@
+.prices__card__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prices__card {
+    width: 345px;
+    border: 1px solid var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.35s ease-in-out;
+}
+
+.prices__card_decoration {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-electric);
+}
+
+.prices__card:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 4px 2px var(--color-electric);
+    transform: translateY(-4px);
+}
+
+@media screen and (max-width: 550px) {
+    .prices__card__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prices__card {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .prices__card__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prices__card {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .prices__card__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prices__card {
+        margin-bottom: 20px;
+    }
+}

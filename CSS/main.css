@@ -1,0 +1,30 @@
+/* Variables */ 
+@import '../CSS/variables.css';
+
+/* Base */
+@import '../CSS/base/reset.css';
+@import '../CSS/base/typography.css';
+
+/* Utilities */
+@import '../CSS/utilities/backgrounds.css';
+@import '../CSS/utilities/borders.css';
+@import '../CSS/utilities/dimensions.css';
+@import '../CSS/utilities/displays.css';
+@import '../CSS/utilities/flex.css';
+@import '../CSS/utilities/floats.css';
+@import '../CSS/utilities/grid.css';
+@import '../CSS/utilities/position.css';
+@import '../CSS/utilities/spacing.css';
+
+/* Partials */
+@import '../CSS/partials/navbar.css';
+@import '../CSS/partials/hero.css';
+@import '../CSS/partials/about.css';
+@import '../CSS/partials/product.css';
+@import '../CSS/partials/prices.css';
+@import '../CSS/partials/footer.css';
+
+/* Components */
+@import '../CSS/components/buttons.css';
+@import '../CSS/components/containers.css';
+@import '../CSS/components/decorations.css';

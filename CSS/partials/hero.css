@@ -1,0 +1,49 @@
+.hero {
+    background-color: var(--color-black);
+    height: 700px;
+}
+
+.hero_content {
+    position: relative;
+    top: 56px;
+}
+
+.hero__img {
+    width: 50%;
+}
+
+.hero__decoration {
+    height: 1px;
+    width: 170px;
+    background-color: var(--color-electric);
+}
+
+@media screen and (min-width: 550px) {
+    .hero_content {
+        height: 700px;
+        margin: var(--m-6);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero__img {
+        display: none;
+    }
+
+    .hero {
+        height: 500px;
+        margin: var(--m-6);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero__img {
+        display: none;
+    }
+
+    .hero {
+        height: 500px;
+        margin: var(--m-6);
+    }
+
+}
